@@ -8,50 +8,65 @@
   </head>
   <body>
     <script src="main.js"></script>
+
     <div class="layer_1">
       <!--includes whole page-->
       <div class="layer_2 upper_element">
         <div class="num_of_ppl">
           <p>人数</p>
-          <input type="number" id="numOfPpl" />
+          <input type="number" id="numOfPpl" value="" />
           <!--
                         todo JS側処理
                         todo 1. 入力された人数を取得 
                         todo 2. 人数分要素を作成
-                    -->
+          -->
         </div>
       </div>
-    </div>
 
-      <div class="layer_2 lower_element">
+      <div class="layer_2 lower_element" id="container">
         <div class="calculate_sheets" id="calculateSheet">
-
-        <div class="parent">
-          <div class="div1">
-            <p>名前</p>
-            <input type="text" name="" id="" />
-          </div>
-          <div class="div2">
-            <p>時給</p>
-          </div>
-          <div class="div3">
-            <input type="text" name="" id="" />
-          </div>
-          <div class="div4">
-            <p>勤務時間</p>
-          </div>
-          <div class="div5">
-            <input type="text" name="" id="" />
-          </div>
-          <div class="div6">
-            <p>土日祝日出勤時間</p>
-          </div>
-          <div class="div7">
-            <input type="text" name="" id="" />
-          </div>
-          <div class="div8">
-            <p>給与</p>
-            <input type="text" name="" id="" />
+          <div class="parent">
+            <div class="div1">
+              <p>名前</p>
+              <input type="text" name="" id="" />
+            </div>
+            <div class="div2">
+              <p>時給</p>
+            </div>
+            <div class="div3">
+              <input
+                type="text"
+                name=""
+                class="hourlyWageInput"
+                id="hourlyWage"
+              />
+            </div>
+            <div class="div4">
+              <p>勤務時間</p>
+            </div>
+            <div class="div5">
+              <input
+                type="text"
+                name=""
+                class="totalWorkingHoursInput"
+                id="totalWorkingHours"
+              />
+            </div>
+            <div class="div6">
+              <p>土日祝日出勤時間</p>
+            </div>
+            <div class="div7">
+              <input
+                type="text"
+                name=""
+                class="holidayDutyInput"
+                id="holidayDuty"
+              />
+            </div>
+            <div class="div8">
+              <p>給与</p>
+              <input type="text" name="" class="" id="" />
+            </div>
           </div>
         </div>
       </div>
