@@ -124,10 +124,10 @@ table {
 }
 /* ↑reset css */
 html {
-  height: 100vw;
+  height: 100%;
 }
 body {
-  height: 100vw;
+  height: 100%;
 }
 .layer_1 {
   width: 100%;
@@ -185,4 +185,9 @@ body {
 .div8 {
   grid-area: 5 / 1 / 6 / 5;
   text-align: center;
+}
+
+.normalWages,
+.resultCompensation {
+  text-align: right;
 }
